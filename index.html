@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aeternum Brew</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div class="loader">
+  <div class="coffee-cup">
+    <div class="steam steam-1"></div>
+    <div class="steam steam-2"></div>
+    <div class="steam steam-3"></div>
+    <div class="cup"></div>
+    <div class="plate"></div>
+  </div>
+  <p class="loading-text">Brewing your experience...</p>
+</div>
+
+<!-- Scroll to Top -->
+<button class="scroll-top" onclick="scrollToTop()">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<header>
+  <nav class="navbar">
+    <div class="logo-container">
+      <div class="logo-icon">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <h2 class="logo">Dark Coffee</h2>
+    </div>
+
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#story" class="nav-link">Our Story</a></li>
+      <li><a href="#menu" class="nav-link">Menu</a></li>
+      <li><a href="#specials" class="nav-link">Specials</a></li>
+      <li><a href="#baristas" class="nav-link">Baristas</a></li>
+      <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#blog" class="nav-link">Blog</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="cart-btn">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count">0</span>
+      </button>
+      <button class="menu-btn">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+  </div>
+  
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Premium Quality Since 2010</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">Fresh Coffee</span>
+        <span class="title-line">for Real Moments</span>
+      </h1>
+      <p class="hero-description">
+        Experience the perfect blend of artisanal coffee and cozy atmosphere. 
+        Every cup tells a story of passion and craftsmanship.
+      </p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">
+          <span>Explore Menu</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#about" class="btn btn-secondary">
+          <i class="fas fa-play"></i>
+          <span>Watch Story</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span>
+          <span class="stat-label">K+ Happy Customers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="25">0</span>
+          <span class="stat-label">Coffee Varieties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" alt="Coffee cup">
+        <div class="image-glow"></div>
+        <div class="floating-card card-1">
+          <i class="fas fa-leaf"></i>
+          <span>100% Organic</span>
+        </div>
+        <div class="floating-card card-2">
+          <i class="fas fa-award"></i>
+          <span>Award Winning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <div class="section-bg">
+    <div class="bg-pattern"></div>
+  </div>
+  
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">About Us</span>
+      <h2 class="section-title">Crafting Perfection in Every Cup</h2>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-images">
+        <div class="image-main">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500" alt="Cafe interior">
+          <div class="experience-badge">
+            <span class="years">15+</span>
+            <span class="text">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="image-secondary">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=300" alt="Coffee making">
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <h3>Where Passion Meets Perfection</h3>
+        <p>Dark Coffee is more than just a café – it's a sanctuary for coffee lovers. Since 2010, we've been sourcing the finest beans from sustainable farms across Ethiopia, Colombia, and Guatemala.</p>
+        <p>Our master roasters bring out unique flavor profiles through small-batch roasting, ensuring every cup delivers an exceptional experience.</p>
+        
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <div class="feature-text">
+              <h4>Ethically Sourced</h4>
+              <p>Direct trade partnerships with farmers</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-fire"></i>
+            </div>
+            <div class="feature-text">
+              <h4>Fresh Roasted</h4>
+              <p>Roasted daily in small batches</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="feature-text">
+              <h4>Made with Love</h4>
+              <p>Crafted by passionate baristas</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#story" class="btn btn-outline">Discover Our Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY SECTION -->
+<section class="story" id="story">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-subtitle">Our Journey</span>
+      <h2 class="section-title">From Bean to Cup</h2>
+    </div>
+    
+    <div class="timeline">
+      <div class="timeline-line"></div>
+      
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2010</div>
+          <h3>The Beginning</h3>
+          <p>Started with a small cart and a big dream to serve exceptional coffee.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2015</div>
+          <h3>First Café</h3>
+          <p>Opened our flagship location, becoming a neighborhood favorite.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2018</div>
+          <h3>Roastery Launch</h3>
+          <p>Started in-house roasting to control quality from bean to cup.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-year">2024</div>
+          <h3>Award Winner</h3>
+          <p>Recognized as Best Specialty Coffee Shop in the region.</p>
+        </div>
+        <div class="timeline-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU SECTION -->
+<section class="menu" id="menu">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Our Menu</span>
+      <h2 class="section-title">Signature Coffee Collection</h2>
+    </div>
+    
+    <div class="menu-tabs">
+      <button class="tab-btn active" data-tab="hot">Hot Coffee</button>
+      <button class="tab-btn" data-tab="cold">Cold Brews</button>
+      <button class="tab-btn" data-tab="specialty">Specialty</button>
+      <button class="tab-btn" data-tab="pastries">Pastries</button>
+    </div>
+    
+    <div class="menu-content">
+      <div class="tab-content active" id="hot">
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=400" alt="Espresso">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Espresso</h3>
+                <span class="price">$3.50</span>
+              </div>
+              <p>Strong • Pure • Bold</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                <span class="time"><i class="fas fa-clock"></i> 2 min</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?w=400" alt="Latte">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Latte</h3>
+                <span class="price">$4.50</span>
+              </div>
+              <p>Milky • Smooth • Classic</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                <span class="time"><i class="fas fa-clock"></i> 4 min</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400" alt="Cappuccino">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Cappuccino</h3>
+                <span class="price">$4.00</span>
+              </div>
+              <p>Foamy • Warm • Balanced</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                <span class="time"><i class="fas fa-clock"></i> 4 min</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400" alt="Americano">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Americano</h3>
+                <span class="price">$3.00</span>
+              </div>
+              <p>Rich • Smooth • Classic</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                <span class="time"><i class="fas fa-clock"></i> 2 min</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=400" alt="Mocha">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Mocha</h3>
+                <span class="price">$5.00</span>
+              </div>
+              <p>Chocolatey • Creamy • Indulgent</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                <span class="time"><i class="fas fa-clock"></i> 5 min</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400" alt="Macchiato">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Macchiato</h3>
+                <span class="price">$3.75</span>
+              </div>
+              <p>Strong • Marked • Intense</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                <span class="time"><i class="fas fa-clock"></i> 3 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="cold">
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://cdn.shopify.com/s/files/1/0271/7209/files/cold-brew-coffee.jpg?v=1650311200" alt="Cold Brew">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Cold Brew</h3>
+                <span class="price">$4.50</span>
+              </div>
+              <p>Smooth • 18hr Steeped • Refreshing</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                <span class="time"><i class="fas fa-clock"></i> 18 hrs</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8eFImbGLoT-G_IBqBi-GIwh-7TwidcjGCQA&s" alt="Iced Latte">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Iced Latte</h3>
+                <span class="price">$4.75</span>
+              </div>
+              <p>Creamy • Chilled • Perfect</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                <span class="time"><i class="fas fa-clock"></i> 4 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="specialty">
+        <div class="menu-grid">
+          <div class="menu-card featured">
+            <div class="featured-badge">Chef's Choice</div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400" alt="Affogato">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Affogato</h3>
+                <span class="price">$6.00</span>
+              </div>
+              <p>Espresso over vanilla gelato</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+                <span class="time"><i class="fas fa-clock"></i> 3 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="pastries">
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="card-image">
+              <img src="data:image/jpeg;base64,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J" alt="Croissant">
+              <div class="card-overlay">
+                <button class="add-to-cart"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="card-header">
+                <h3>Butter Croissant</h3>
+                <span class="price">$3.50</span>
+              </div>
+              <p>Flaky • Buttery • Fresh</p>
+              <div class="card-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                <span class="time"><i class="fas fa-clock"></i> Fresh Daily</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALS SECTION -->
+<section class="specials" id="specials">
+  <div class="container">
+    <div class="specials-content">
+      <div class="specials-text">
+        <span class="section-subtitle">Limited Time</span>
+        <h2>Seasonal Specials</h2>
+        <p>Discover our exclusive winter collection featuring rare single-origin beans and festive flavors.</p>
+        
+        <div class="specials-list">
+          <div class="special-item">
+            <div class="special-icon">
+              <i class="fas fa-snowflake"></i>
+            </div>
+            <div class="special-info">
+              <h4>Winter Spice Latte</h4>
+              <p>Cinnamon, nutmeg, and clove with espresso</p>
+            </div>
+          </div>
+          <div class="special-item">
+            <div class="special-icon">
+              <i class="fas fa-candy-cane"></i>
+            </div>
+            <div class="special-info">
+              <h4>Peppermint Mocha</h4>
+              <p>Dark chocolate with peppermint essence</p>
+            </div>
+          </div>
+          <div class="special-item">
+            <div class="special-icon">
+              <i class="fas fa-cookie"></i>
+            </div>
+            <div class="special-info">
+              <h4>Gingerbread Cold Brew</h4>
+              <p>18-hour steeped with gingerbread syrup</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#menu" class="btn btn-primary">View Full Menu</a>
+      </div>
+      
+      <div class="specials-image">
+        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=500" alt="Seasonal special">
+        <div class="price-tag">
+          <span class="old-price">$6.50</span>
+          <span class="new-price">$5.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BARISTAS SECTION -->
+<section class="baristas" id="baristas">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Our Team</span>
+      <h2 class="section-title">Meet Our Master Baristas</h2>
+    </div>
+    
+    <div class="baristas-grid">
+      <div class="barista-card">
+        <div class="barista-image">
+          <img src="data:image/jpeg;base64,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" alt="Barista">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="barista-info">
+          <h3>Marco Silva</h3>
+          <span class="role">Head Barista</span>
+          <p>10 years of experience, 2x latte art champion</p>
+        </div>
+      </div>
+      
+      <div class="barista-card">
+        <div class="barista-image">
+          <img src="https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?w=400" alt="Barista">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="barista-info">
+          <h3>Sarah Chen</h3>
+          <span class="role">Coffee Specialist</span>
+          <p>Q Grader certified, coffee sourcing expert</p>
+        </div>
+      </div>
+      
+      <div class="barista-card">
+        <div class="barista-image">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="Barista">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="barista-info">
+          <h3>James Wilson</h3>
+          <span class="role">Roast Master</span>
+          <p>Specializes in light roasts and flavor profiling</p>
+        </div>
+      </div>
+      
+      <div class="barista-card">
+        <div class="barista-image">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400" alt="Barista">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="barista-info">
+          <h3>Emma Rodriguez</h3>
+          <span class="role">Pastry Chef</span>
+          <p>Creates perfect pairings for our coffee</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-subtitle">Testimonials</span>
+      <h2 class="section-title">What Our Customers Say</h2>
+    </div>
+    
+    <div class="testimonials-slider">
+      <div class="testimonial-track">
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"The best coffee I've ever had outside of Italy. The attention to detail in every cup is remarkable. Dark Coffee has become my daily ritual."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Customer">
+            <div class="author-info">
+              <h4>Jennifer Adams</h4>
+              <span>Regular Customer</span>
+            </div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"As a coffee snob, I'm impressed. Their single-origin Ethiopian is absolutely divine. The baristas really know their craft."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Customer">
+            <div class="author-info">
+              <h4>Michael Torres</h4>
+              <span>Coffee Enthusiast</span>
+            </div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"The atmosphere here is unmatched. Perfect for meetings, studying, or just enjoying a quiet moment with exceptional coffee."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100" alt="Customer">
+            <div class="author-info">
+              <h4>Lisa Park</h4>
+              <span>Freelance Writer</span>
+            </div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider-controls">
+        <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY SECTION -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Gallery</span>
+      <h2 class="section-title">Café Moments</h2>
+    </div>
+    
+    <div class="gallery-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="coffee">Coffee</button>
+      <button class="filter-btn" data-filter="space">Space</button>
+      <button class="filter-btn" data-filter="people">People</button>
+    </div>
+    
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="coffee">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400" alt="Coffee">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Pour Over</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="space">
+        <img src="https://images.unsplash.com/photo-1522992319-0365e5f11656?w=400" alt="Café">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Cozy Corner</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="coffee">
+        <img src="https://images.unsplash.com/photo-1510627498534-cf7e9002facc?w=400" alt="Latte Art">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Latte Art</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="people">
+        <img src="https://images.unsplash.com/photo-1521401292936-0a2129a30b1c?w=400" alt="Barista">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Our Team</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="space">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400" alt="Interior">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Interior</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-category="coffee">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400" alt="Beans">
+        <div class="gallery-overlay">
+          <i class="fas fa-search-plus"></i>
+          <span>Fresh Beans</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG SECTION -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Latest News</span>
+      <h2 class="section-title">From Our Blog</h2>
+    </div>
+    
+    <div class="blog-grid">
+      <article class="blog-card featured">
+        <div class="blog-image">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600" alt="Coffee beans">
+          <span class="blog-category">Education</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar"></i> Jan 15, 2024</span>
+            <span><i class="fas fa-clock"></i> 5 min read</span>
+          </div>
+          <h3>The Art of Coffee Tasting: A Beginner's Guide</h3>
+          <p>Learn how to identify flavor notes, acidity, and body like a professional cupper...</p>
+          <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+      
+      <article class="blog-card">
+        <div class="blog-image">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400" alt="Brewing">
+          <span class="blog-category">Brewing</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar"></i> Jan 10, 2024</span>
+            <span><i class="fas fa-clock"></i> 3 min read</span>
+          </div>
+          <h3>Perfect Your Pour Over Technique</h3>
+          <p>Master the art of pour over coffee with these professional tips...</p>
+          <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+      
+      <article class="blog-card">
+        <div class="blog-image">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400" alt="Sustainability">
+          <span class="blog-category">Sustainability</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar"></i> Jan 5, 2024</span>
+            <span><i class="fas fa-clock"></i> 4 min read</span>
+          </div>
+          <h3>Our Journey to Zero Waste</h3>
+          <p>How we're reducing our environmental impact one cup at a time...</p>
+          <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-content">
+      <div class="newsletter-text">
+        <h2>Stay Caffeinated</h2>
+        <p>Subscribe to get exclusive offers, brewing tips, and early access to new blends.</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-primary">
+          <span>Subscribe</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Get in Touch</span>
+      <h2 class="section-title">Visit Us Today</h2>
+    </div>
+    
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="info-text">
+            <h4>Location</h4>
+            <p>123 Coffee Lane<br>Brew District, NY 10001</p>
+          </div>
+        </div>
+        
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="info-text">
+            <h4>Opening Hours</h4>
+            <p>Mon - Fri: 7am - 8pm<br>Sat - Sun: 8am - 9pm</p>
+          </div>
+        </div>
+        
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="info-text">
+            <h4>Contact</h4>
+            <p>+1 (555) 123-4567<br>hello@darkcoffee.com</p>
+          </div>
+        </div>
+        
+        <div class="social-connect">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+            <span class="input-focus"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+            <span class="input-focus"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject">
+          <span class="input-focus"></span>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <span class="input-focus"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <span>Send Message</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-container">
+            <i class="fas fa-mug-hot"></i>
+            <h3>Dark Coffee</h3>
+          </div>
+          <p>Crafting exceptional coffee experiences since 2010. Every cup tells a story.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Private Events</a></li>
+            <li><a href="#">Coffee Subscription</a></li>
+            <li><a href="#">Wholesale</a></li>
+            <li><a href="#">Barista Training</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Lane, NY 10001</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+          <p><i class="fas fa-envelope"></i> hello@darkcoffee.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Sun: 7am - 9pm</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2024 Dark Coffee — Made with <i class="fas fa-mug-hot"></i> & <i class="fas fa-heart"></i></p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Shopping Cart Sidebar -->
+<div class="cart-sidebar">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button class="close-cart"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="cart-items">
+    <p class="empty-cart">Your cart is empty</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Total:</span>
+      <span class="total-price">$0.00</span>
+    </div>
+    <button class="btn btn-primary btn-full">Checkout</button>
+  </div>
+</div>
+<div class="cart-overlay"></div>
+
+<!-- Lightbox -->
+<div class="lightbox">
+  <button class="lightbox-close"><i class="fas fa-times"></i></button>
+  <button class="lightbox-nav prev"><i class="fas fa-chevron-left"></i></button>
+  <img src="" alt="Lightbox image">
+  <button class="lightbox-nav next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
